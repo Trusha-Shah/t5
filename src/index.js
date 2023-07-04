@@ -1,7 +1,7 @@
 const express = require('express')
 const {response} = require("express");
 const index = express()
-const users = require('./db/users')
+const users = require('../db/users')
 const port = 3001;
 index.use(express.json());
 
